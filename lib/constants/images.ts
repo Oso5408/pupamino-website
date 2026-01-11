@@ -29,6 +29,8 @@ export const images = {
   vector1: '/assets/vector-1.svg',
   vector2: '/assets/vector-2.svg',
   vector3: '/assets/vector-3.svg',
+  instagram: '/assets/instagram-icon.svg',
+  facebook: '/assets/facebook-icon.svg',
 } as const;
 
 export type ImageKey = keyof typeof images;
