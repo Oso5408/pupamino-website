@@ -81,10 +81,8 @@ const BlueprintSection = () => {
         </div>
       </div>
 
-      {/* Decorative Vector Elements */}
-      <div className="absolute left-[75%] top-1/2 -translate-y-1/2 w-[14px] h-[25px] hidden lg:block pointer-events-none">
-        <Image src={images.vector} alt="" fill className="object-contain" />
-      </div>
+      {/* Decorative Vector Elements - Hidden for clean design */}
+      {/* The vector.svg is a Facebook icon that's not needed in this section */}
     </section>
   );
 };
